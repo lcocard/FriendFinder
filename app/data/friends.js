@@ -1,0 +1,65 @@
+/* ***** FriendFinder - friends.js ********** */
+
+var friends = [
+    {
+        "name": "Friend1",
+        "photo": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+
+    {
+        "name": "Friend2",
+        "photo": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [2, 5, 4, 1, 5, 1, 4, 4, 5, 1]
+    },
+
+    {
+        "name": "Friend3",
+        "photo": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [4, 5, 1, 5, 1, 4, 2, 5, 4, 1]
+    },
+
+    {
+        "name": "Friend4",
+        "photo": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [5, 1, 4, 4, 5, 4, 1, 1, 2, 5]
+    },
+
+    {
+        "name": "Friend5",
+        "photo": "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [4, 5, 1, 2, 5, 1, 4, 5, 4, 1]
+    },
+
+    {
+        "name": "Friend6",
+        "photo": "https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [1, 4, 4, 5, 5, 1, 2, 5, 4, 1]
+    },
+
+    {
+        "name": "Friend7",
+        "photo": "https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [1, 2, 5, 4, 1, 5, 1, 4, 4, 5]
+    },
+
+    {
+        "name": "Friend8",
+        "photo": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [5, 2, 5, 4, 1, 1, 4, 4, 5, 1]
+    },
+
+    {
+        "name": "Friend9",
+        "photo": "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [5, 1, 2, 5, 4, 5, 1, 4, 4, 1]
+    },
+
+    {
+        "name": "Friend10",
+        "photo": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [1, 4, 4, 5, 1, 2, 5, 5, 4, 1]
+    }
+]
+
+module.exports = friends;

@@ -1,0 +1,26 @@
+/* Friend Finder style.css */
+
+body {
+  background-image: url("/images/adult-backlit-beach-1000445.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  color: #512207;
+}
+
+h3,
+h4 {
+  color: #faf0cc;
+}
+
+.container {
+  background-color: #512207;
+  /*opacity: 0.6;*/
+}
+
+button {
+  background-color: #512207;
+}
