@@ -59,7 +59,20 @@ var friends = [
         "name": "Friend10",
         "photo": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         "scores": [1, 4, 4, 5, 1, 2, 5, 5, 4, 1]
-    }
+    },
+
+    {
+        "name": "Friend11",
+        "photo": "https://images.pexels.com/photos/1446263/pexels-photo-1446263.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    },
+
+    {
+        "name": "Friend12",
+        "photo": "https://images.pexels.com/photos/2878698/pexels-photo-2878698.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1, 1, 2]
+    },
+
 ]
 
 module.exports = friends;

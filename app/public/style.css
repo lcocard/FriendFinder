@@ -16,9 +16,9 @@ h4 {
   color: #faf0cc;
 }
 
-.container {
+form {
   background-color: #512207;
-  /*opacity: 0.6;*/
+  opacity: 0.6;
 }
 
 button {
