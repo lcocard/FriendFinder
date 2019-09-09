@@ -33,14 +33,10 @@ module.exports = function (app) {
         var newFriend = req.body;
         var bestMatch = {};
 
+        console.log("New Friend Scores = " + req.body.scores);
+
         for (var i = 0; i < newFriend.scores.length; i++) {
-            if (newFriend.scores[i] == "1 (Disagree)") {
-                newFriend.scores[i] = 1;
-            } else if (newFriend.scores[i] == "5 (Agree)") {
-                newFriend.scores[i] = 5;
-            } else {
-                newFriend.scores[i] = parseInt(newFriend.scores[i]);
-            }
+            newFriend.scores[i] = parseInt(newFriend.scores[i]);
         }
 
         //compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the `totalDifference`.
