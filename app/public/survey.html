@@ -312,7 +312,7 @@
               $("#Val10").val()
             ]
           };
-          // Use AJAX to post the data to the API.
+          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
           $.post(currentURL + "/api/friends", userData, function(data) {
             // Display the posted results.
             $("#match_name").text(data.name);
