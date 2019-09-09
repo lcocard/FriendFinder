@@ -40,10 +40,6 @@ Using Express to handle routing. The app was deployed to Heroku so other users c
 
 3. Once found the current user's most compatible friend, the result is displayed as a modal pop-up.
 
-### Reminder: Submission on BCS
-
-- Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-
 ### Hosting on Heroku
 
 The app was deployed on Heroku for hosting at the following address:
